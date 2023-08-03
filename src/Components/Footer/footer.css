@@ -1,0 +1,21 @@
+
+
+.footer_container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+    border-radius: 200px 200px 0px 0px;
+    background-color: #36BAFF;
+}
+
+.footer_container-title {
+    display: flex;
+    font-size: 2vw;
+    padding: 2vh 0;
+}

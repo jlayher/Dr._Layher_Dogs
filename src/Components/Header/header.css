@@ -1,0 +1,19 @@
+
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    min-height: 5vh;
+    border: 2px solid black;
+    border-radius: 0px 0px 200px 200px;
+
+}
+
+.header_container-text {
+    display: flex;
+    font-size: 3em;
+    padding-bottom: .45em;
+    padding-top: .25em;
+}
