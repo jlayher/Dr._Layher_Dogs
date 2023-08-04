@@ -1,17 +1,18 @@
 
 
 .footer_container {
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-top: 1em;
     border: 2px solid black;
     border-radius: 200px 200px 0px 0px;
     background-color: #36BAFF;
+    
 }
 
 .footer_container-title {

@@ -4,16 +4,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* opacity: 0.8; */
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, coral 4px ), repeating-linear-gradient(coral, #775b0855 );
     background-color: coral;
-    min-height: 5vh;
+    /* min-height: 5vh; */
+    min-width: 50%;
     border: 2px solid black;
     border-radius: 0px 0px 200px 200px;
-
+ 
 }
 
 .header_container-text {
     display: flex;
-    font-size: 3em;
+    font-size: 3vw;
+    color: black;
     padding-bottom: .45em;
     padding-top: .25em;
+
 }
